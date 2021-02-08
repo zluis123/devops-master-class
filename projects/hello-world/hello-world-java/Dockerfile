@@ -1,3 +1,4 @@
+#Para java e preciso compilar o ficheiro jar antes de criar a imagem
 # Build a JAR File
 FROM maven:3.6.3-jdk-8-slim AS stage1
 WORKDIR /home/app
